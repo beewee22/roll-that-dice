@@ -1,0 +1,53 @@
+/*App Container*/
+.AppWrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.AppWrap > div {
+  flex: auto;
+}
+
+/* App Header */
+.AppWrap > div.Header {
+  flex: 0 0 64px;
+}
+
+/* App Body */
+.AppWrap > div.Body {
+  overflow-x: scroll;
+}
+
+.msgListUserName {
+  font-weight: bold;
+  padding: 4px 0px 0px 7px;
+}
+
+/* App Footer */
+.AppWrap > div.Footer {
+  flex: 0 0 70px;
+  position: relative !important;
+  width: 100vw;
+  display: flex;
+  flex-direction:row-reverse;
+  box-shadow: 0px 3px 12px 0px;
+}
+div.Footer .ChatInput {
+  position: absolute !important;
+  bottom: 3px;
+  left: 10px;
+  height: 72px;
+  width: calc(100vw - 130px) !important;
+  overflow: hidden;
+}
+div.Footer .ChatSendBtn {
+  flex: 0 0 100px;
+  height: 100px;
+}
+
+/* Menu Btns */
+.BtnMenusContainer {
+  position: absolute;
+  right: 12px;
+  bottom: 100px;
+}
