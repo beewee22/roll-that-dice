@@ -1,3 +1,2 @@
-import colors from 'colors';
 
-console.log("starting app in dev mode...".blue);
+console.log("starting app in dev mode...");
