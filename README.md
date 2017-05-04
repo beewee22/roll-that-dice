@@ -1,11 +1,3 @@
-# React Redux Starter Kit
+# Roll That Dice!
 
-For when you just can't has all the set-up anymore, you just can't. 
-
-## Instructions
-
-* clone
-* `npm install`
-* `npm start`
-
-Write the codez.
+Simple chat & roll dice for fun

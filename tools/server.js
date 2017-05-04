@@ -23,6 +23,9 @@ app.use(require('webpack-dev-middleware')(compiler, {
 app.use(require('webpack-hot-middleware')(compiler));
 
 app.use('*', function(req, res) {
+  if(~req.url.indexOf('favicon')) {
+    return false;
+  }
  res.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
